@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>insta</groupId>
-  <artifactId>insta</artifactId>
+  <groupId>iex</groupId>
+  <artifactId>iex</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <build>
@@ -64,25 +64,12 @@
       <artifactId>commons-math3</artifactId>
       <version>3.2</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
-    <dependency>
-      <groupId>org.jsoup</groupId>
-      <artifactId>jsoup</artifactId>
-      <version>1.10.2</version>
-    </dependency>
 
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>6.0.6</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/org.apache.airavata/levenshtein-distance-service -->
-    <dependency>
-      <groupId>org.apache.airavata</groupId>
-      <artifactId>levenshtein-distance-service</artifactId>
-      <version>0.2-incubating</version>
     </dependency>
 
   </dependencies>
